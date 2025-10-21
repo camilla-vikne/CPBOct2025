@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100svh;
+  width: 100svw;
+  background-color: bisque;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+div {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+}
+#hex {
+  background-color: #ffaa99;
+}
+#hsl {
+  background-color: hsl(97, 52%, 48%);
+}
+#hsla {
+  background-color: hsla(30, 100%, 50%, 0.692);
+}
+#hwb {
+  background-color: hwb(0 0% 0%);
+}
+#rgb {
+  background-color: rgb(150, 30, 220);
+}
+#cmyk {
+  background-color: cmyk(100%, 0%, 0%, 0%);
+}
+#lab {
+  background-color: lab(53.41% 80.58 52.97);
+}
+#oklab {
+  background-color: oklab(120 60 200);
+}
+#lch {
+  background-color: lch(67 200 40);
+}
